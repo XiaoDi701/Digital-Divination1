@@ -1,0 +1,106 @@
+
+    body {
+      background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
+      font-family: "Noto Serif SC", serif;
+      color: #222;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      overflow: hidden; 
+      font-family: "source-han-sans-cjk-hk", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      background-image: url("1.png");
+      background-size: 100% auto;
+      background-repeat: repeat-y;
+      background-position: center center;
+      background-color: #f0f0f0;     
+    }
+
+    .title-image {
+        width: 1000px; 
+        height: 250px; 
+        background-image: url("title.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 60px auto 0; 
+        border: none;
+        text-indent: -9999px;
+        position: relative;
+        z-index: 10;
+        flex-shrink: 0;   
+      }
+      
+  
+      .button-image {
+        width: 220px;
+        height: 60px;
+        background-image: url("button.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        margin: 20px auto;
+        display: block;
+        text-indent: -9999px; 
+        position: relative;
+        z-index: 5;
+        flex-shrink: 0;   
+      }
+      
+     
+      #animationBox {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw;
+        margin: 0 auto;
+      }
+      
+      #animationBox img {
+        height: 50vh;
+        width: auto;
+        object-fit: contain;
+        background: none;
+        border: none;
+        box-shadow: none;
+      }
+      
+      .cast-box {
+        background-image: url("cast.png");
+        background-size: 120% 120%;    
+        background-repeat: no-repeat;
+        padding: 80px 60px;          
+        max-width: 900px;             
+        height: 400px;                 
+        overflow-y: auto;             
+        margin: 30px auto;
+        border-radius: 20px;
+        color: #222;
+        font-size: 1.2rem;
+        line-height: 1.6;
+        box-sizing: border-box;
+        display: none;                 
+      }
+      .question-input {
+        display: block;
+        margin: 20px auto;
+        padding: 10px 15px;
+        width: 80%;
+        max-width: 500px;
+        font-size: 1em;
+        text-align: center;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      

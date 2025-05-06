@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Cyber I Ching Reading</title>
+        
+        <script src="https://js.puter.com/v2/"></script>
+        <link rel="stylesheet" href="style.css">
+        <script>
+            (function(d) {
+              var config = {
+                kitId: 'mle0jqr', 
+                scriptTimeout: 3000,
+                async: true
+              },
+              h = d.documentElement,
+              t = setTimeout(function() {
+                h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+              }, config.scriptTimeout),
+              tk = d.createElement("script"),
+              f = false,
+              s = d.getElementsByTagName("script")[0],
+              a;
+          
+              h.className += " wf-loading";
+              tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+              tk.async = true;
+              tk.onload = tk.onreadystatechange = function() {
+                a = this.readyState;
+                if (f || a && a !== "complete" && a !== "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try { Typekit.load(config) } catch (e) {}
+              };
+              s.parentNode.insertBefore(tk, s);
+            })(document);
+          </script>
+      </head>
+<body>
+    <h1 class="title-image"></h1>
+    <input type="text" id="userQuestion" class="question-input" placeholder="Enter your question...">
+
+    <button class="button-image" onclick="startDivination()"></button>
+
+  <div id="animationBox"></div>
+  <div id="result" class="cast-box"></div>
+
+  <script>
+const guaMap = {
+  "111111": "乾为天",
+  "000000": "坤为地",
+  "010001": "水雷屯",
+  "100010": "山水蒙",
+  "010111": "水天需",
+  "111010": "天水讼",
+  "000010": "地水师",
+  "010000": "水地比",
+  "110111": "风天小畜",
+  "111011": "天泽履",
+  "000111": "地天泰",
+  "111000": "天地否",
+  "111001": "天火同人",
+  "100111": "火天大有",
+  "111100": "天雷无妄",
+  "001111": "雷天大壮",
+  "000100": "地雷复",
+  "001000": "山雷颐",
+  "011001": "泽雷随",
+  "100110": "山风蛊",
+  "000011": "地泽临",
+  "110000": "雷地豫",
+  "101111": "泽天夬",
+  "111101": "天风姤",
+  "000001": "泽地萃",
+  "100000": "山天大畜",
+  "100001": "山雷颐",
+  "011110": "风泽中孚",
+  "010100": "水火既济",
+  "001010": "火水未济",
+  "100101": "山泽损",
+  "101001": "泽山咸",
+  "001101": "雷风恒",
+  "101100": "火雷噬嗑",
+  "001110": "雷火丰",
+  "011100": "火风鼎",
+  "000110": "泽雷随",
+  "011000": "山风蛊",
+  "110001": "雷山小过",
+  "100011": "山泽履",
+  "111110": "天火讼",
+  "011111": "风火家人",
+  "000101": "火泽睽",
+  "101000": "泽火革",
+  "100100": "火山旅",
+  "001001": "山火贲",
+  "011011": "泽水困",
+  "110110": "雷水解",
+  "001011": "山水蒙",
+  "110100": "风水涣",
+  "101101": "火水未济",
+  "101011": "水火既济",
+  "010110": "雷泽归妹",
+  "011010": "泽雷随",
+  "110010": "风山渐",
+  "010011": "山风蛊",
+  "110011": "风火家人",
+  "001100": "雷泽归妹",
+  "011101": "泽山咸",
+  "101110": "火雷噬嗑",
+  "010101": "水泽节",
+  "101010": "泽水困"
+};
+
+
+
+    const coinAnimations = {
+      "000": "animation/000.gif",
+      "001": "animation/001.gif",
+      "010": "animation/001.gif",
+      "011": "animation/000.gif",
+      "100": "animation/111.gif",
+      "101": "animation/110.gif",
+      "110": "animation/110.gif",
+      "111": "animation/111.gif"
+    };
+
+    function flipCoin() {
+      return Math.random() < 0.5 ? 0 : 1;
+    }
+
+    function getTrigramBinary() {
+      let binary = "";
+      for (let i = 0; i < 3; i++) {
+        binary += flipCoin();
+      }
+      return binary;
+    }
+    function playAnimation(key, containerId = "animationBox") {
+  const container = document.getElementById(containerId);
+  container.innerHTML = "";
+
+  const img = document.createElement("img");
+  img.src = coinAnimations[key] + `?v=${Date.now()}`; 
+  img.alt = `Trigram ${key}`;
+  container.appendChild(img);
+}
+
+
+function startDivination() {
+    document.body.style.backgroundImage = 'url("2.png")';
+
+    document.querySelector(".cast-box").style.display = "block";
+
+
+document.querySelector(".title-image").style.display = "none";
+document.querySelector(".button-image").style.display = "none";
+document.getElementById("userQuestion").style.display = "none";
+
+const resultBox = document.getElementById("result");
+const upper = getTrigramBinary();
+const lower = getTrigramBinary();
+const full = upper + lower;
+const guaName = guaMap[full] || `未知卦象 (${full})`;
+
+playAnimation(upper);
+
+resultBox.innerHTML = `
+  <p>Your Hexagram: <strong>${guaName}</strong></p>
+  <p>Consulting the Dao...</p>
+`;
+const userQuestion = document.getElementById("userQuestion").value || "No specific question provided";
+
+const prompt = `
+Based on the following hexagram generated from digital coin tosses in an I Ching divination ritual, provide an accurate and traditional explanation from the Book of Changes:
+
+- Upper trigram (binary): ${upper}
+- Lower trigram (binary): ${lower}
+- Combined hexagram (binary): ${full}
+- Name of hexagram: ${guaName}
+
+User's question: "${userQuestion}"
+
+Please respond in the following structure:
+1. 卦名 (standard Chinese hexagram name, e.g., 泽水困)
+2. 卦义 (Traditional Chinese interpretation of this hexagram, accurate and concise)
+3. Advice (a short, practical takeaway or mindset reflection for today, based on this hexagram's meaning, **especially in relation to the user's question**)
+
+Do not invent new hexagrams or interpret freely. Your answer must be grounded in traditional I Ching scholarship. Your answer should be in English. Do not use "*" for formatting in your response.
+`;
+
+   puter.ai.chat(prompt).then((reply) => {
+    resultBox.innerHTML += `
+      <hr>
+      <div style="text-align: left; white-space: pre-wrap;">${reply}</div>
+    `;
+  });
+}
+  </script>
+</body>
+</html>
