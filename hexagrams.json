@@ -1,0 +1,312 @@
+{
+  "111111": {
+    "name": "Qián - Heaven",
+    "meaning": "Great success and perseverance. The movement of Heaven is strong and unyielding. The noble one improves himself constantly.",
+    "advice": "Act with strength and perseverance. This is a time for personal progress and assertive action."
+  },
+  "000000": {
+    "name": "Kūn - Earth",
+    "meaning": "Receptivity and support. The noble one carries all things with great virtue, like the Earth.",
+    "advice": "Be humble, yielding, and supportive. Align with the greater good."
+  },
+  "010001": {
+    "name": "Zhūn - Difficulty at the Beginning",
+    "meaning": "Beginnings are difficult but bring growth. Good fortune with patience and guidance.",
+    "advice": "Be patient and organize your plans. Wait for the right moment to act."
+  },
+  "100010": {
+    "name": "Méng - Youthful Folly",
+    "meaning": "Ignorance seeks instruction. Success lies in guiding the naive with clarity and firmness.",
+    "advice": "Remain teachable. Seek wisdom and accept correction."
+  },
+  "010111": {
+    "name": "Xū - Waiting",
+    "meaning": "Waiting with sincerity brings success. Preparation and patience are needed.",
+    "advice": "Prepare calmly. Await the right moment with confidence and clarity."
+  },
+  "111010": {
+    "name": "Sòng - Conflict",
+    "meaning": "Conflict arises from miscommunication. Success may come through inner clarity.",
+    "advice": "Avoid arguments. Seek resolution with fairness and wisdom."
+  },
+  "000010": {
+    "name": "Shī - Army",
+    "meaning": "Success through discipline and leadership. Order and loyalty lead to victory.",
+    "advice": "Lead with strength and order. Trust in collective action."
+  },
+  "010000": {
+    "name": "Bǐ - Holding Together",
+    "meaning": "Union brings good fortune. Mutual support strengthens unity.",
+    "advice": "Build loyal partnerships. Align with integrity and shared goals."
+  },
+  "110111": {
+    "name": "Xiǎo Chù - Small Taming",
+    "meaning": "Gentle control brings success. Restraint builds strength over time.",
+    "advice": "Cultivate patience. Store energy for the right opportunity."
+  },
+  "111011": {
+    "name": "Lǚ - Treading",
+    "meaning": "Treading cautiously brings good fortune. Avoid danger with mindfulness.",
+    "advice": "Be respectful and cautious. Every step must be deliberate."
+  },
+  "000111": {
+    "name": "Tài - Peace",
+    "meaning": "Harmony between Heaven and Earth. A time of smooth progress and prosperity.",
+    "advice": "Take advantage of peaceful times to build and expand."
+  },
+  "111000": {
+    "name": "Pǐ - Standstill",
+    "meaning": "Heaven and Earth are disconnected. Obstacles prevent progress.",
+    "advice": "Withdraw, reflect, and wait for change. Now is not the time to act."
+  },
+  "111001": {
+    "name": "Tóng Rén - Fellowship",
+    "meaning": "Unity with like-minded people brings success. Great achievements through teamwork.",
+    "advice": "Collaborate and communicate clearly. Collective effort leads to success."
+  },
+  "100111": {
+    "name": "Dà Yǒu - Great Possession",
+    "meaning": "Great abundance and fortune. Wealth and virtue bring influence.",
+    "advice": "Use your strength and resources wisely. Be generous and fair."
+  },
+  "111100": {
+    "name": "Wú Wàng - Innocence",
+    "meaning": "Sincerity and naturalness lead to success. Avoid corruption and rash actions.",
+    "advice": "Maintain integrity. Act without hidden motives."
+  },
+  "001111": {
+    "name": "Dà Zhuàng - Great Power",
+    "meaning": "Great strength must be tempered with wisdom. Excess leads to failure.",
+    "advice": "Act with strength and caution. Avoid arrogance or forcefulness."
+  },
+  "000100": {
+    "name": "Fù - Return",
+    "meaning": "Return to the path brings success. Rebirth and renewal.",
+    "advice": "Make a fresh start. Reconnect with what truly matters."
+  },
+  "001000": {
+    "name": "Yí - Nourishment",
+    "meaning": "Proper nourishment sustains growth. Seek balance in all things.",
+    "advice": "Nourish both body and spirit. Avoid excess or neglect."
+  },
+  "011001": {
+    "name": "Suí - Following",
+    "meaning": "Adaptability and harmony bring fortune. Going with the flow is wise.",
+    "advice": "Follow your intuition. Let go of resistance and accept change."
+  },
+  "100110": {
+    "name": "Gǔ - Decay",
+    "meaning": "Decay and corruption must be corrected. A time for cleansing and reform.",
+    "advice": "Address long-standing problems. Purge what is no longer useful."
+  },
+  "000011": {
+    "name": "Lín - Approach",
+    "meaning": "Approach with kindness. Favorable for leadership and care for others.",
+    "advice": "Extend support to others. Be gracious and act with foresight."
+  },
+  "110000": {
+    "name": "Yù - Enthusiasm",
+    "meaning": "Joyful movement. Proper preparation leads to successful actions.",
+    "advice": "Act with clarity and joy. Inspire others with your sincerity."
+  },
+  "101111": {
+    "name": "Guài - Breakthrough",
+    "meaning": "A decisive moment. Overcoming obstacles through firm action.",
+    "advice": "Cut through resistance with courage and clarity."
+  },
+  "111101": {
+    "name": "Gòu - Coming to Meet",
+    "meaning": "Unexpected encounters. Beware of seductive or dangerous influences.",
+    "advice": "Stay alert. Avoid temptation and seek wise counsel."
+  },
+  "000001": {
+    "name": "Cuì - Gathering Together",
+    "meaning": "Gathering people brings strength. Unity through shared values.",
+    "advice": "Build community. Seek support from like-minded people."
+  },
+  "100000": {
+    "name": "Dà Chù - Great Restraint",
+    "meaning": "Restraint brings growth. Withhold action to build strength.",
+    "advice": "Be still. Wait until the right moment to act decisively."
+  },
+  "100001": {
+    "name": "Yí - Nourishment",
+    "meaning": "True nourishment is about more than food. Mind and spirit must be fed.",
+    "advice": "Care for your thoughts. Avoid overindulgence or shallow cravings."
+  },
+  "011110": {
+    "name": "Zhōng Fú - Inner Truth",
+    "meaning": "Sincerity opens hearts. Real trust brings harmony.",
+    "advice": "Act with honesty and inner clarity. Relationships will flourish."
+  },
+  "010100": {
+    "name": "Jì Jì - Already Fulfilled",
+    "meaning": "Completion with care. Things are in place, but must be maintained.",
+    "advice": "Enjoy success but remain cautious. Stability requires vigilance."
+  },
+  "001010": {
+    "name": "Wèi Jì - Not Yet Fulfilled",
+    "meaning": "Near completion. One last effort needed to succeed.",
+    "advice": "Stay focused. Finish what you started with care."
+  },
+  "100101": {
+    "name": "Sǔn - Decrease",
+    "meaning": "Decrease in excess leads to balance. Sacrifice brings blessings.",
+    "advice": "Let go of what you don’t need. Less can lead to more."
+  },
+  "101001": {
+    "name": "Xián - Influence",
+    "meaning": "Mutual attraction and emotional connection. Influence arises subtly.",
+    "advice": "Move hearts with sincerity. Deep bonds form quietly."
+  },
+  "001101": {
+    "name": "Héng - Constancy",
+    "meaning": "Stability through consistency. Success comes to those who persevere.",
+    "advice": "Stick to your path. Integrity over time builds strength."
+  },
+  "101100": {
+    "name": "Shì Kè - Biting Through",
+    "meaning": "Resolving injustice. Punishment may be necessary.",
+    "advice": "Face what is wrong directly. Clear action brings resolution."
+  },
+  "001110": {
+    "name": "Fēng - Abundance",
+    "meaning": "Prosperity and illumination. A time of great potential.",
+    "advice": "Shine your light. Make the most of opportunities while they last."
+  },
+  "011100": {
+    "name": "Dǐng - The Cauldron",
+    "meaning": "Transformation and nourishment. The vessel of culture.",
+    "advice": "Refine your inner self. Share what nourishes others."
+  },
+  "000110": {
+    "name": "Suí - Following",
+    "meaning": "Going along with others harmoniously. Strength through softness.",
+    "advice": "Adapt without losing yourself. Listen and respond wisely."
+  },
+  "011000": {
+    "name": "Gǔ - Decay",
+    "meaning": "Corruption must be cleansed. Address old issues.",
+    "advice": "Make necessary repairs. Root out dysfunction at the source."
+  },
+  "110001": {
+    "name": "Xiǎo Guò - Small Exceeding",
+    "meaning": "Small matters are favorable. Do not overreach.",
+    "advice": "Be precise and moderate. Focus on what’s manageable."
+  },
+  "100011": {
+    "name": "Lǚ - Treading",
+    "meaning": "Proceed with caution. Danger lies in careless steps.",
+    "advice": "Be alert and tactful. Each action matters."
+  },
+  "111110": {
+    "name": "Sòng - Conflict",
+    "meaning": "A time of challenge. Speak truth but avoid force.",
+    "advice": "Seek resolution through understanding, not confrontation."
+  },
+  "011111": {
+    "name": "Jiā Rén - Family",
+    "meaning": "Harmony within the family brings prosperity.",
+    "advice": "Play your role within the group. Maintain respect and care."
+  },
+  "000101": {
+    "name": "Kuí - Opposition",
+    "meaning": "Differences create distance. Clarity can bridge gaps.",
+    "advice": "Respect perspectives. Unity can emerge through honest dialogue."
+  },
+  "101000": {
+    "name": "Gé - Revolution",
+    "meaning": "Transformation is necessary. Change must be just.",
+    "advice": "Embrace change but root it in principle."
+  },
+  "100100": {
+    "name": "Lǚ - The Traveler",
+    "meaning": "Movement and uncertainty. Success through awareness.",
+    "advice": "Stay focused even in unfamiliar places. Respect boundaries."
+  },
+  "001001": {
+    "name": "Bì - Grace",
+    "meaning": "Beauty with substance. Appearance reflects inner truth.",
+    "advice": "Cultivate inner and outer harmony. Avoid vanity."
+  },
+  "011011": {
+    "name": "Kùn - Hardship",
+    "meaning": "Adversity tests strength. Help comes through endurance.",
+    "advice": "Endure patiently. Help will arrive in due time."
+  },
+  "110110": {
+    "name": "Jiě - Deliverance",
+    "meaning": "Relief after struggle. Obstacles dissolve.",
+    "advice": "Let go of burdens. Allow change to free you."
+  },
+  "001011": {
+    "name": "Méng - Youthful Folly",
+    "meaning": "A second instance of youthful ignorance (duplicate entry).",
+    "advice": "Reflect carefully. Seek guidance again if needed."
+  },
+  "110100": {
+    "name": "Huàn - Dispersion",
+    "meaning": "Scattering old patterns. Clarity through letting go.",
+    "advice": "Dispel confusion. Clear the way for renewal."
+  },
+  "101101": {
+    "name": "Wèi Jì - Not Yet Fulfilled",
+    "meaning": "Near completion, but not done. Danger at the end.",
+    "advice": "Finish what you start. Avoid careless endings."
+  },
+  "101011": {
+    "name": "Jì Jì - Already Fulfilled",
+    "meaning": "Success and balance. Maintain what has been achieved.",
+    "advice": "Enjoy stability but remain watchful."
+  },
+  "010110": {
+    "name": "Guī Mèi - Marrying Maiden",
+    "meaning": "Union brings responsibility. Consider long-term roles.",
+    "advice": "Commit with awareness. Partnerships require care."
+  },
+  "011010": {
+    "name": "Suí - Following",
+    "meaning": "Repeat of earlier Following (duplicate entry).",
+    "advice": "Flow with the situation while being mindful."
+  },
+  "110010": {
+    "name": "Jiàn - Gradual Progress",
+    "meaning": "Growth step-by-step. Gentle progress leads to lasting change.",
+    "advice": "Be patient. Build foundations slowly but surely."
+  },
+  "010011": {
+    "name": "Gǔ - Decay",
+    "meaning": "Another version of addressing rot and repair.",
+    "advice": "Clean out what no longer serves. Heal old damage."
+  },
+  "110011": {
+    "name": "Jiā Rén - Family",
+    "meaning": "Family unity requires roles and responsibility.",
+    "advice": "Care for your home. Uphold shared values."
+  },
+  "001100": {
+    "name": "Guī Mèi - Marrying Maiden",
+    "meaning": "A repeat of union and responsibility.",
+    "advice": "Understand your commitments before agreeing."
+  },
+  "011101": {
+    "name": "Xián - Influence",
+    "meaning": "Emotional resonance. Influence is subtle but powerful.",
+    "advice": "Use intuition and gentleness to connect."
+  },
+  "101110": {
+    "name": "Shì Kè - Biting Through",
+    "meaning": "Justice and clarity. Problems must be confronted.",
+    "advice": "Face truth directly. Resolve tension with firmness."
+  },
+  "010101": {
+    "name": "Jié - Moderation",
+    "meaning": "Limits are necessary. Restraint brings safety.",
+    "advice": "Do not go to extremes. Practice discipline."
+  },
+  "101010": {
+    "name": "Kùn - Hardship",
+    "meaning": "Same hardship as earlier. Strength is forged through trials.",
+    "advice": "Keep going. Your endurance brings hope."
+  }
+}

@@ -188,13 +188,23 @@ Please respond in the following structure:
 Do not invent new hexagrams or interpret freely. Your answer must be grounded in traditional I Ching scholarship. Your answer should be in English. Do not use "*" for formatting in your response.
 `;
 
-   puter.ai.chat(prompt).then((reply) => {
-    resultBox.innerHTML += `
-      <hr>
-      <div style="text-align: left; white-space: pre-wrap;">${reply}</div>
-    `;
+fetch("hexagrams.json")
+  .then(response => response.json())
+  .then(data => {
+    const hexagramData = data[full];
+    if (hexagramData) {
+      resultBox.innerHTML += `
+        <hr>
+        <div style="text-align: left; white-space: pre-wrap;">
+          <p><strong>1. 卦名：</strong>${hexagramData.name}</p>
+          <p><strong>2. 卦义：</strong>${hexagramData.meaning}</p>
+          <p><strong>3. Advice：</strong>${hexagramData.advice}</p>
+        </div>
+      `;
+    } else {
+      resultBox.innerHTML += `<p><em>找不到该卦象的解释。</em></p>`;
+    }
   });
-}
   </script>
 </body>
 </html>
